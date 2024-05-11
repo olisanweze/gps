@@ -1,0 +1,45 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  App                                                  */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+:root {
+  --background-dark: rgb(24, 23, 31);
+}
+
+body {
+  background-color: var(--background-dark);
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.center {
+  place-items: center;
+}
+
+h1, h2, h3, p, span, li {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Component                                            */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#map {
+  background-color: rgb(131 131 131 / 0.2);
+  width: 100vw;
+  height: 100vh;
+}
+
+.map p {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
